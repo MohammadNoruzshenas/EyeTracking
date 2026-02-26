@@ -8,7 +8,10 @@ export const useSocket = () => {
 
     useEffect(() => {
         if (token) {
-            const newSocket = io('http://localhost:3000', {
+            // const newSocket = io('http://localhost:3000', {
+            //     auth: { token },
+            // });
+            const newSocket = io('https://eyetracking-production.up.railway.app', {
                 auth: { token },
             });
 
