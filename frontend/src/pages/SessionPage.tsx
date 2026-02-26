@@ -109,7 +109,6 @@ const SessionPage = () => {
 
                     // Add to scan path - ONLY IF NEAR CALIBRATION POINTS
                     if (scanPathCanvasRef.current) {
-                        const canvas = scanPathCanvasRef.current;
 
                         // Find if gazing near any calibration point (radius 7%)
                         const nearestPoint = CALIBRATION_POINTS.find(p => {

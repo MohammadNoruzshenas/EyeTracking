@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { sessionApi } from '../api/sessionApi';
 import {
-    LogOut, ShieldCheck, BarChart3, Users, Settings,
+    LogOut, ShieldCheck, BarChart3, Users,
     Plus, UserPlus, Calendar, Loader2, ChevronRight,
     Search, Activity, Clock, Trash2, ArrowRight
 } from 'lucide-react';
