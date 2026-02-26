@@ -11,7 +11,7 @@ import { ConfigModule } from '@nestjs/config';
   imports: [
     //MongooseModule.forRoot('mongodb://127.0.0.1:27017/eye-tracking'),
     ConfigModule.forRoot(),
-    MongooseModule.forRoot(process.env.MONGO_URI ?? ''),
+    MongooseModule.forRoot(process.env.MONGO_URL as string),
     UsersModule,
     AuthModule,
     SessionsModule,
