@@ -9,7 +9,7 @@ import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://127.0.0.1:27017/eye-tracking'),
+    MongooseModule.forRoot('mongodb+srv://eyetrackseye_db_user:My123456@eyetrackseye.ylwpyar.mongodb.net/eye-tracking?retryWrites=true&w=majority'),
     // ConfigModule.forRoot(),
     // MongooseModule.forRoot(process.env.MONGO_URL as string),
     //MongooseModule.forRoot('mongodb://root:2cz9oAAuzLXWeLqyKBVriBDl@eyetrackingdb:27017/my-app?authSource=admin'),
