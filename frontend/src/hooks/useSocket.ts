@@ -11,7 +11,7 @@ export const useSocket = () => {
             // const newSocket = io('https://eyetracking-api.liara.run', {
             //     auth: { token },
             // });
-            const newSocket = io('http://localhost:3000', {
+            const newSocket = io('https://eyetracking-4bez.onrender.com', {
                 auth: { token },
             });
             // const newSocket = io('https://eyetracking-production.up.railway.app', {
