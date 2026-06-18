@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     //baseURL: 'https://eyetracking-api.liara.run',
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://eyetracking-4bez.onrender.com',
     // baseURL: 'https://eyetracking-production.up.railway.app',
 });
 
